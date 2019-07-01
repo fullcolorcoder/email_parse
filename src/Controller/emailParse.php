@@ -5,7 +5,7 @@ use Drupal\Core\Controller\ControllerBase;
 use PhpMimeMailParser\Parser;
 
 /**
- * Defines HelloController class.
+ * Defines emailParse class.
  */
 class emailParse extends ControllerBase {
 
