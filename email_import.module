@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains email_import.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function email_import_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the email_import module.
+    case 'help.page.email_import':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('A utility module that parses .eml content and makes data available to other modules.') . '</p>';
+      return $output;
+
+    default:
+  }
+}

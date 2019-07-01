@@ -1,0 +1,16 @@
+{
+    "name": "email_import",
+    "type": "drupal-module",
+    "description": "A utility module that parses .eml content and makes data available to other modules.",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/email_import",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/email_import",
+        "source": "http://cgit.drupalcode.org/email_import"
+    },
+    "require": {
+        "php-mime-mail-parser/php-mime-mail-parser": "^5.0"
+    }
+}

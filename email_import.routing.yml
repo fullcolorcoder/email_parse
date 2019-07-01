@@ -1,0 +1,28 @@
+email_import.airline:
+  path: '/airline'
+  defaults:
+    _controller: '\Drupal\email_import\Controller\emailParse::airline'
+    _title: 'Airline'
+  requirements:
+    _permission: 'access content'
+email_import.firstName:
+  path: '/firstName'
+  defaults:
+    _controller: '\Drupal\email_import\Controller\emailParse::firstName'
+    _title: 'First Name'
+  requirements:
+    _permission: 'access content'
+email_import.lastName:
+  path: '/lastName'
+  defaults:
+    _controller: '\Drupal\email_import\Controller\emailParse::lastName'
+    _title: 'Last Name'
+  requirements:
+    _permission: 'access content'
+email_import.recordLocator:
+  path: '/recordLocator'
+  defaults:
+    _controller: '\Drupal\email_import\Controller\emailParse::recordLocator'
+    _title: 'Record Locator'
+  requirements:
+    _permission: 'access content'
